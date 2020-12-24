@@ -39,9 +39,6 @@ function App() {
 
   console.log(userData);
 
-  //comment passed from new
-  //comment from master
-  //another from master
   return (
     <BrowserRouter>
     <UserContext.Provider value={{userData, setUserData}}>
